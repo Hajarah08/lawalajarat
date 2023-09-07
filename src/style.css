@@ -20,13 +20,13 @@ img{
 
     
 }
-#slackUserName{
+.name{
     font-size: large;
     text-transform: uppercase;
     padding: 10px;
     text-align: center;
 }
-.currentDayOfTheWeek{
+.day{
     font-size: medium;
     text-transform: uppercase;
     padding: 5px;
@@ -34,7 +34,7 @@ img{
     text-align: center;
 }
 
-.myTrack{
+.track{
     font-size: large;
     text-transform: uppercase;
     padding: 5px;
@@ -45,7 +45,7 @@ a{
     text-transform: capitalize;
     display: block;
     margin: 0 auto;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     color:green;
     text-align: center;
