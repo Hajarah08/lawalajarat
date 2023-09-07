@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>LawalAjarat</title>
+</head>
+<body>
+    <ul class="container">
+        <li class="name" data-testid="slackUserName">Lawal Ajarat</li>
+        <img src="src/Ade.jpg" alt="LawalAjarat" data-testid="slackDisplayImage">
+        <p class="day" data-testid="currentDayOfTheWeek"><span id="date-time"></span></p>
+        <li class="time" data-testid="currentUTCTime"></li>
+        <li class="track" data-testid="myTrack">Frontend</li>
+        <a href="https://github.com/Hajarah08">
+            Github:Hajarah08
+        </a>
+    </ul>
+</body>
+<script>
+    var dt = new Date();
+    document.getElementById('date-time').innerHTML=dt;
+</script>
+</html>
