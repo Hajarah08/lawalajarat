@@ -13,9 +13,9 @@ li{
     
 }
 img{
-    max-width: 50%;
-    max-height: 50%;
-    margin:10px 110px;
+   width: 200px;
+    display: block;
+    margin: 0 auto;
     
 
     
