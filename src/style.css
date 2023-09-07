@@ -6,7 +6,7 @@ body{
 .container{
     max-width: 500px;
     margin: 0 auto;
-    background-color:rgba(255, 166, 0, 0.575) ;
+    background-color:purple ;
 }
 li{
     list-style: none;
